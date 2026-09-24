@@ -1,6 +1,6 @@
 # After Hours — Your Weeknd Set
 
-A responsive playlist builder that curates a roughly 25–35 minute set from a handpicked Weeknd catalog based on mood and situation. It works with local curation immediately, and can optionally call OpenRouter's `poolside/laguna-xs-2.1` model and create a private playlist in Spotify.
+A responsive playlist builder that curates a roughly 30-minute set from 231 distinct commercially released tracks credited to The Weeknd as a performer. This includes lead tracks and guest features, with distinct songs counted once; alternate versions such as remixes, live cuts, and sped-up/slowed-down variants are excluded from the playlist catalog. It works with local curation immediately, and can optionally call OpenRouter's `poolside/laguna-xs-2.1` model and create a private playlist in Spotify.
 
 ## Run locally
 
@@ -31,5 +31,6 @@ The app uses Spotify's browser-based PKCE authorization flow. The Client ID and 
 ## Notes
 
 - Spotify controls which accounts can use developer apps and Web API features. The app surfaces Spotify errors if your app, account, redirect URI, or permissions are not configured for API access.
-- Track times and available catalog entries are curated metadata; Spotify may have versions with slightly different durations.
+- The song titles, first-release album, year, and performer credit are adapted from the [list of commercially released songs credited to The Weeknd](https://en.wikipedia.org/wiki/List_of_songs_recorded_by_the_Weeknd) (231 distinct titles, as of August 28, 2026). The source includes both solo credits and collaborations. Metadata from that list is available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- Exact durations were matched through the Apple iTunes Search API when available; other durations are estimates, so a generated set can differ from 30 minutes by a few minutes. Spotify may also have versions with slightly different durations.
 - This is an independent fan project and is not affiliated with The Weeknd or Spotify.

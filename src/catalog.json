@@ -4,311 +4,335 @@
     "album": "Lemonade",
     "year": 2016,
     "featured": true,
-    "time": 221,
+    "time": 215,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "A Lesser Man",
     "album": "The Idol Episode 3 (Music from the HBO Original Series)",
     "year": 2023,
     "featured": false,
-    "time": 252,
+    "time": 298,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "A Lie",
     "album": "Jungle Rules",
     "year": 2017,
     "featured": true,
-    "time": 280,
+    "time": 219,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "A Lonely Night",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 251,
+    "time": 220,
     "tags": [
       "confidence",
       "party",
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "A Tale By Quincy",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 208,
+    "time": 96,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Acquainted",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 240,
+    "time": 348,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Adaptation",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 246,
+    "time": 283,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "After Hours",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 276,
+    "time": 361,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "All I Know",
     "album": "Starboy",
     "year": 2016,
     "featured": true,
-    "time": 278,
+    "time": 176,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "All To Myself",
     "album": "We Still Don't Trust You",
     "year": 2024,
     "featured": false,
-    "time": 229,
+    "time": 254,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Alone Again",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 224,
+    "time": 250,
     "tags": [
       "dark",
       "late night",
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Always Be My Fault",
     "album": "We Still Don't Trust You",
     "year": 2024,
     "featured": false,
-    "time": 279,
+    "time": 246,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Angel",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 236,
+    "time": 377,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Anima Pt. 1",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 210,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Anima Pt. 2",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 211,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Another One of Me",
     "album": "The Love Album: Off the Grid",
     "year": 2023,
     "featured": false,
-    "time": 259,
+    "time": 410,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "As You Are",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 210,
+    "time": 340,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Attention",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 243,
+    "time": 197,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Baptized in Fear",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 241,
+    "time": 232,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Bedtime Stories",
     "album": "SR3MM",
     "year": 2018,
     "featured": true,
-    "time": 236,
+    "time": 186,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Belong to the World",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 220,
+    "time": 307,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Best Friends",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 210,
+    "time": 163,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Better Believe",
     "album": "See You Next Wednesday",
     "year": 2021,
     "featured": false,
-    "time": 259,
+    "time": 206,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Big Sleep",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 256,
+    "time": 225,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Blinding Lights",
     "album": "After Hours",
     "year": 2019,
     "featured": false,
-    "time": 219,
+    "time": 200,
     "tags": [
       "dark",
       "late night",
@@ -316,167 +340,180 @@
       "drive",
       "euphoric"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Call Out My Name",
     "album": "My Dear Melancoly",
     "year": 2018,
     "featured": false,
-    "time": 208,
+    "time": 228,
     "tags": [
       "energy",
       "confidence",
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Can You Hear Me Knocking?",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 241,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Can't Feel My Face",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 231,
+    "time": 213,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Champagne Solves Everything",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 206,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Christmas Blues",
     "album": "Christmas Blues",
     "year": 2020,
     "featured": false,
-    "time": 242,
+    "time": 205,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Circus Maximus",
     "album": "Utopia",
     "year": 2023,
     "featured": true,
-    "time": 226,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Close Encounter",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 242,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Closing Night",
     "album": "Hurry Up Tomorrow (Pharrell Williams Edition)",
     "year": 2025,
     "featured": false,
-    "time": 246,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Come Thru",
     "album": "Edgewood",
     "year": 2018,
     "featured": true,
-    "time": 208,
+    "time": 165,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Comin Out Strong",
     "album": "Hndrxx",
     "year": 2017,
     "featured": true,
-    "time": 276,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Coming Down",
     "album": "House of Balloons and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 262,
+    "time": 295,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Creepin",
     "album": "Heroes & Villains",
     "year": 2022,
     "featured": false,
-    "time": 231,
+    "time": 221,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Crew Love",
     "album": "Take Care",
     "year": 2011,
     "featured": true,
-    "time": 208,
+    "time": 191,
     "tags": [
       "energy",
       "confidence",
@@ -484,52 +521,56 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Cry for Me",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 240,
+    "time": 224,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Curve",
     "album": "Mr. Davis",
     "year": 2017,
     "featured": true,
-    "time": 266,
+    "time": 188,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "D.D",
     "album": "Echoes of Silence and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 235,
+    "time": 274,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Dance Until We're Skin and Bones",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 209,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
@@ -537,14 +578,15 @@
       "party",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Dancing in the Flames",
     "album": "Hurry Up Tomorrow<br>(After Hours Til Dawn Collection)",
     "year": 2024,
     "featured": false,
-    "time": 229,
+    "time": 220,
     "tags": [
       "dark",
       "late night",
@@ -552,89 +594,96 @@
       "drive",
       "euphoric"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Dark Times",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": true,
-    "time": 225,
+    "time": 246,
     "tags": [
       "confidence",
       "energy",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Dawn FM",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 246,
+    "time": 96,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Devil May Cry",
     "album": "The Hunger Games: Catching Fire – Original Motion Picture Soundtrack",
     "year": 2013,
     "featured": false,
-    "time": 226,
+    "time": 323,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Die for It",
     "album": "See You Next Wednesday",
     "year": 2021,
     "featured": true,
-    "time": 223,
+    "time": 204,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Die for You",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 275,
+    "time": 260,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Dollhouse",
     "album": "The Idol Episode 5 Part 2 (Music from the HBO Original Series)",
     "year": 2023,
     "featured": false,
-    "time": 236,
+    "time": 239,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Don't Break My Heart",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 256,
+    "time": 205,
     "tags": [
       "euphoric",
       "nostalgia",
@@ -642,76 +691,1390 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Double Fantasy",
     "album": "The Idol Episode 2 (Music from the HBO Original Series)",
     "year": 2023,
     "featured": true,
-    "time": 274,
+    "time": 422,
     "tags": [
       "dark",
       "late night",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Drinks On Us",
     "album": "Singles & collaborations",
     "year": 2015,
     "featured": true,
-    "time": 213,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Drive",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 255,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy",
       "drive"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Earned It",
     "album": "Fifty Shades of Grey (Original Motion Picture Soundtrack)<br>and Beauty Behind the Madness",
     "year": 2014,
     "featured": false,
-    "time": 257,
+    "time": 250,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Echoes of Silence",
     "album": "Echoes of Silence and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 268,
+    "time": 239,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": false
   },
   {
     "title": "Elastic Heart",
     "album": "The Hunger Games: Catching Fire – Original Motion Picture Soundtrack",
     "year": 2013,
+    "featured": true,
+    "time": 257,
+    "tags": [
+      "energy",
+      "confidence",
+      "party",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": false
+  },
+  {
+    "title": "Enjoy the Show",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Escape from LA",
+    "album": "After Hours",
+    "year": 2020,
+    "featured": false,
+    "time": 355,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": false
+  },
+  {
+    "title": "Every Angel Is Terrifying",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 167,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": false
+  },
+  {
+    "title": "Exodus",
+    "album": "Matangi",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Faith",
+    "album": "After Hours",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "False Alarm",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "False Idols",
+    "album": "The Idol Episode 5 Part 1 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Family",
+    "album": "The Idol Episode 2 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 183,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": false
+  },
+  {
+    "title": "Fill the Void",
+    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Final Lullaby",
+    "album": "After Hours (Deluxe Edition)",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Gas Station",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Gasoline",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Gifted",
+    "album": "Excuse My French",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Give Me Mercy",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Given Up on Me",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Gone",
+    "album": "Thursday and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Hardest to Love",
+    "album": "After Hours",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Hawái",
+    "album": "Singles & collaborations",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Heartbeat Slower",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Heartless",
+    "album": "After Hours",
+    "year": 2019,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Heaven or Las Vegas",
+    "album": "Thursday and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Here We Go... Again",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "High for This",
+    "album": "House of Balloons and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "House of Balloons / Glass Table Girls",
+    "album": "House of Balloons and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "How Do I Make You Love Me?",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Hurricane",
+    "album": "Donda",
+    "year": 2021,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Hurry Up Tomorrow",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Hurt You",
+    "album": "My Dear Melancoly",
+    "year": 2018,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Can't Fucking Sing",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Can't Wait to Get There",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Feel It Coming",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Feel Like I Know You",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Heard You're Married",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I Was Never There",
+    "album": "My Dear Melancoly",
+    "year": 2018,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "I'm good",
+    "album": "Dedication 5",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "In Heaven",
+    "album": "After Hours<br>(After Hours Til Dawn Collection)",
+    "year": 2026,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "In the Night",
+    "album": "Beauty Behind the Madness",
+    "year": 2015,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "In Too Deep",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "In Vein",
+    "album": "Mastermind",
+    "year": 2014,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "In Your Eyes",
+    "album": "After Hours",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Initiation",
+    "album": "Echoes of Silence and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Intro\" (Live)",
+    "album": "Live at SoFi Stadium",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Is There Someone Else?",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "It's Mostly Psychological",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Jealous Guy",
+    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "King of the Fall",
+    "album": "Singles & collaborations",
+    "year": 2014,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Kiss Land",
+    "album": "Kiss Land",
+    "year": 2013,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "K-pop",
+    "album": "Utopia",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "La Fama",
+    "album": "Motomami",
+    "year": 2021,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Less than Zero",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Life of the Party",
+    "album": "Thursday and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "party",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Like A God",
+    "album": "The Idol Episode 5 Part 1 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Live For",
+    "album": "Kiss Land",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Loft Music",
+    "album": "House of Balloons and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Lonely Star",
+    "album": "Thursday and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Losers",
+    "album": "Beauty Behind the Madness",
+    "year": 2015,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Lost in the Fire",
+    "album": "Hyperion",
+    "year": 2019,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Love in the Sky",
+    "album": "Kiss Land",
+    "year": 2013,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "energy",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Love Me Harder",
+    "album": "My Everything",
+    "year": 2014,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Love to Lay",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Low Life",
+    "album": "Evol",
+    "year": 2016,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Lust for Life",
+    "album": "Lust for Life",
+    "year": 2017,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Might Not",
+    "album": "Up for Days",
+    "year": 2015,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Missed You",
+    "album": "After Hours (Deluxe Edition)",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Montreal",
+    "album": "Echoes of Silence and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Moth to a Flame",
+    "album": "Paradise Again and Dawn FM (Alternate World)",
+    "year": 2021,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Muted",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Niagara Falls",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Next",
+    "album": "Echoes of Silence and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Nocturnal",
+    "album": "Caracal",
+    "year": 2015,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Nothing Compares",
+    "album": "After Hours (Deluxe Edition)",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Nothing Is Lost (You Give Me Strength)",
+    "album": "Avatar: The Way of Water (Original Motion Picture Soundtrack)",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Nothing Without You",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Odd Look",
+    "album": "Odd Look EP and Kiss Land (Japanese / Deluxe Edition)",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Off the Table",
+    "album": "Positions",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Often",
+    "album": "Beauty Behind the Madness",
+    "year": 2014,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "energy",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "One of the Girls",
+    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "One of Those Nights",
+    "album": "Stay Trippy (Deluxe Edition)",
+    "year": 2013,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "One Right Now",
+    "album": "Twelve Carat Toothache",
+    "year": 2021,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Open Hearts",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy",
+      "heartbreak",
+      "romantic"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Opening Night",
+    "album": "Hurry Up Tomorrow",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Or Nah",
+    "album": "Singles & collaborations",
+    "year": 2014,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Ordinary Life",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Out of Time",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Outro\" (Live)",
+    "album": "Live at SoFi Stadium",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Outside",
+    "album": "Echoes of Silence and Trilogy",
+    "year": 2011,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Over Now",
+    "album": "Singles & collaborations",
+    "year": 2020,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Party Monster",
+    "album": "Starboy",
+    "year": 2016,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Phantom Regret by Jim",
+    "album": "Dawn FM",
+    "year": 2022,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "nostalgia",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Please Leave a Message",
+    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
+    "year": 2025,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "euphoric",
+      "reflective",
+      "energy"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Poison",
+    "album": "Unstoppable",
+    "year": 2021,
+    "featured": true,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence",
+      "party"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Popular",
+    "album": "The Idol<br>(After Hours Til Dawn Collection)",
+    "year": 2023,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "dark",
+      "late night",
+      "heartbreak",
+      "party",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Power Is Power",
+    "album": "For the Throne: Music Inspired by the HBO Series Game of Thrones",
+    "year": 2019,
+    "featured": false,
+    "time": 230,
+    "tags": [
+      "energy",
+      "confidence"
+    ],
+    "artist": "The Weeknd",
+    "durationEstimated": true
+  },
+  {
+    "title": "Pray 4 Love",
+    "album": "Rodeo",
+    "year": 2015,
     "featured": true,
     "time": 230,
     "tags": [
@@ -721,1722 +2084,548 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Enjoy the Show",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 232,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Escape from LA",
-    "album": "After Hours",
-    "year": 2020,
-    "featured": false,
-    "time": 223,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Every Angel Is Terrifying",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 278,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Exodus",
-    "album": "Matangi",
-    "year": 2013,
-    "featured": true,
-    "time": 229,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Faith",
-    "album": "After Hours",
-    "year": 2020,
-    "featured": false,
-    "time": 241,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "False Alarm",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": false,
-    "time": 233,
-    "tags": [
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "False Idols",
-    "album": "The Idol Episode 5 Part 1 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 247,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Family",
-    "album": "The Idol Episode 2 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 207,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Fill the Void",
-    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 243,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Final Lullaby",
-    "album": "After Hours (Deluxe Edition)",
-    "year": 2020,
-    "featured": false,
-    "time": 236,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Gas Station",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 270,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Gasoline",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 263,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Gifted",
-    "album": "Excuse My French",
-    "year": 2013,
-    "featured": true,
-    "time": 268,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Give Me Mercy",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 214,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Given Up on Me",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 262,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Gone",
-    "album": "Thursday and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 218,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Hardest to Love",
-    "album": "After Hours",
-    "year": 2020,
-    "featured": false,
-    "time": 249,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Hawái",
-    "album": "Singles & collaborations",
-    "year": 2020,
-    "featured": false,
-    "time": 215,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Heartbeat Slower",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 265,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Heartless",
-    "album": "After Hours",
-    "year": 2019,
-    "featured": false,
-    "time": 232,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Heaven or Las Vegas",
-    "album": "Thursday and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 243,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Here We Go... Again",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": true,
-    "time": 233,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "High for This",
-    "album": "House of Balloons and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 248,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "House of Balloons / Glass Table Girls",
-    "album": "House of Balloons and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 238,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "How Do I Make You Love Me?",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 245,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Hurricane",
-    "album": "Donda",
-    "year": 2021,
-    "featured": true,
-    "time": 222,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Hurry Up Tomorrow",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 205,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Hurt You",
-    "album": "My Dear Melancoly",
-    "year": 2018,
-    "featured": false,
-    "time": 213,
-    "tags": [
-      "energy",
-      "confidence",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Can't Fucking Sing",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 243,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Can't Wait to Get There",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 239,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Feel It Coming",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": true,
-    "time": 256,
-    "tags": [
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Feel Like I Know You",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 264,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Heard You're Married",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": true,
-    "time": 237,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I Was Never There",
-    "album": "My Dear Melancoly",
-    "year": 2018,
-    "featured": false,
-    "time": 245,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "I'm good",
-    "album": "Dedication 5",
-    "year": 2013,
-    "featured": true,
-    "time": 275,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "In Heaven",
-    "album": "After Hours<br>(After Hours Til Dawn Collection)",
-    "year": 2026,
-    "featured": false,
-    "time": 259,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "In the Night",
-    "album": "Beauty Behind the Madness",
-    "year": 2015,
-    "featured": false,
-    "time": 215,
-    "tags": [
-      "confidence",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "In Too Deep",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 228,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "In Vein",
-    "album": "Mastermind",
-    "year": 2014,
-    "featured": true,
-    "time": 214,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "In Your Eyes",
-    "album": "After Hours",
-    "year": 2020,
-    "featured": false,
-    "time": 225,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Initiation",
-    "album": "Echoes of Silence and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 265,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Intro\" (Live)",
-    "album": "Live at SoFi Stadium",
-    "year": 2023,
-    "featured": false,
-    "time": 212,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Is There Someone Else?",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 275,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "It's Mostly Psychological",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 265,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Jealous Guy",
-    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 205,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "King of the Fall",
-    "album": "Singles & collaborations",
-    "year": 2014,
-    "featured": false,
-    "time": 243,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Kiss Land",
-    "album": "Kiss Land",
-    "year": 2013,
-    "featured": false,
-    "time": 270,
-    "tags": [
-      "dark",
-      "late night",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "K-pop",
-    "album": "Utopia",
-    "year": 2023,
-    "featured": false,
-    "time": 280,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "La Fama",
-    "album": "Motomami",
-    "year": 2021,
-    "featured": true,
-    "time": 251,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Less than Zero",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 227,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Life of the Party",
-    "album": "Thursday and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 227,
-    "tags": [
-      "dark",
-      "late night",
-      "party",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Like A God",
-    "album": "The Idol Episode 5 Part 1 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 245,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Live For",
-    "album": "Kiss Land",
-    "year": 2013,
-    "featured": true,
-    "time": 248,
-    "tags": [
-      "dark",
-      "late night",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Loft Music",
-    "album": "House of Balloons and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 243,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Lonely Star",
-    "album": "Thursday and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 210,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Losers",
-    "album": "Beauty Behind the Madness",
-    "year": 2015,
-    "featured": true,
-    "time": 229,
-    "tags": [
-      "confidence",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Lost in the Fire",
-    "album": "Hyperion",
-    "year": 2019,
-    "featured": false,
-    "time": 277,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Love in the Sky",
-    "album": "Kiss Land",
-    "year": 2013,
-    "featured": false,
-    "time": 262,
-    "tags": [
-      "dark",
-      "late night",
-      "energy",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Love Me Harder",
-    "album": "My Everything",
-    "year": 2014,
-    "featured": false,
-    "time": 235,
-    "tags": [
-      "energy",
-      "confidence",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Love to Lay",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": false,
-    "time": 208,
-    "tags": [
-      "confidence",
-      "party",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Low Life",
-    "album": "Evol",
-    "year": 2016,
-    "featured": true,
-    "time": 243,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Lust for Life",
-    "album": "Lust for Life",
-    "year": 2017,
-    "featured": true,
-    "time": 264,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Might Not",
-    "album": "Up for Days",
-    "year": 2015,
-    "featured": true,
-    "time": 211,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Missed You",
-    "album": "After Hours (Deluxe Edition)",
-    "year": 2020,
-    "featured": false,
-    "time": 255,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Montreal",
-    "album": "Echoes of Silence and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 279,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Moth to a Flame",
-    "album": "Paradise Again and Dawn FM (Alternate World)",
-    "year": 2021,
-    "featured": false,
-    "time": 226,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Muted",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 260,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Niagara Falls",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 210,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Next",
-    "album": "Echoes of Silence and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 240,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Nocturnal",
-    "album": "Caracal",
-    "year": 2015,
-    "featured": true,
-    "time": 243,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Nothing Compares",
-    "album": "After Hours (Deluxe Edition)",
-    "year": 2020,
-    "featured": false,
-    "time": 270,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Nothing Is Lost (You Give Me Strength)",
-    "album": "Avatar: The Way of Water (Original Motion Picture Soundtrack)",
-    "year": 2022,
-    "featured": false,
-    "time": 280,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Nothing Without You",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": false,
-    "time": 245,
-    "tags": [
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Odd Look",
-    "album": "Odd Look EP and Kiss Land (Japanese / Deluxe Edition)",
-    "year": 2013,
-    "featured": true,
-    "time": 237,
-    "tags": [
-      "dark",
-      "late night",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Off the Table",
-    "album": "Positions",
-    "year": 2020,
-    "featured": false,
-    "time": 221,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Often",
-    "album": "Beauty Behind the Madness",
-    "year": 2014,
-    "featured": false,
-    "time": 257,
-    "tags": [
-      "confidence",
-      "energy",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "One of the Girls",
-    "album": "The Idol Episode 4 (Music from the HBO Original Series)",
-    "year": 2023,
-    "featured": false,
-    "time": 270,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "One of Those Nights",
-    "album": "Stay Trippy (Deluxe Edition)",
-    "year": 2013,
-    "featured": true,
-    "time": 268,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "One Right Now",
-    "album": "Twelve Carat Toothache",
-    "year": 2021,
-    "featured": false,
-    "time": 237,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Open Hearts",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 266,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Opening Night",
-    "album": "Hurry Up Tomorrow",
-    "year": 2025,
-    "featured": false,
-    "time": 247,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Or Nah",
-    "album": "Singles & collaborations",
-    "year": 2014,
-    "featured": true,
-    "time": 253,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Ordinary Life",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": false,
-    "time": 245,
-    "tags": [
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Out of Time",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 205,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Outro\" (Live)",
-    "album": "Live at SoFi Stadium",
-    "year": 2023,
-    "featured": false,
-    "time": 225,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Outside",
-    "album": "Echoes of Silence and Trilogy",
-    "year": 2011,
-    "featured": false,
-    "time": 254,
-    "tags": [
-      "dark",
-      "late night"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Over Now",
-    "album": "Singles & collaborations",
-    "year": 2020,
-    "featured": false,
-    "time": 273,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Party Monster",
-    "album": "Starboy",
-    "year": 2016,
-    "featured": false,
-    "time": 217,
-    "tags": [
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Phantom Regret by Jim",
-    "album": "Dawn FM",
-    "year": 2022,
-    "featured": false,
-    "time": 252,
-    "tags": [
-      "euphoric",
-      "nostalgia",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Please Leave a Message",
-    "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
-    "year": 2025,
-    "featured": false,
-    "time": 226,
-    "tags": [
-      "euphoric",
-      "reflective",
-      "energy"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Poison",
-    "album": "Unstoppable",
-    "year": 2021,
-    "featured": true,
-    "time": 229,
-    "tags": [
-      "energy",
-      "confidence",
-      "party"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Popular",
-    "album": "The Idol<br>(After Hours Til Dawn Collection)",
-    "year": 2023,
-    "featured": false,
-    "time": 260,
-    "tags": [
-      "dark",
-      "late night",
-      "heartbreak",
-      "party",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Power Is Power",
-    "album": "For the Throne: Music Inspired by the HBO Series Game of Thrones",
-    "year": 2019,
-    "featured": false,
-    "time": 215,
-    "tags": [
-      "energy",
-      "confidence"
-    ],
-    "artist": "The Weeknd"
-  },
-  {
-    "title": "Pray 4 Love",
-    "album": "Rodeo",
-    "year": 2015,
-    "featured": true,
-    "time": 227,
-    "tags": [
-      "energy",
-      "confidence",
-      "party",
-      "heartbreak",
-      "romantic"
-    ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Pray for Me",
     "album": "Black Panther: The Album",
     "year": 2018,
     "featured": false,
-    "time": 274,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Pretty",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 245,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Price on My Head",
     "album": "Bad Habits",
     "year": 2019,
     "featured": true,
-    "time": 221,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Prisoner",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": true,
-    "time": 219,
+    "time": 230,
     "tags": [
       "confidence",
       "energy",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Privilege",
     "album": "My Dear Melancoly",
     "year": 2018,
     "featured": false,
-    "time": 228,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Professional",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 258,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Pullin' Up",
     "album": "Dreams Worth More Than Money",
     "year": 2015,
     "featured": true,
-    "time": 265,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Rambo (Last Blood)",
     "album": "Trapsoul (Deluxe Edition)",
     "year": 2015,
     "featured": true,
-    "time": 227,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Rather Lie",
     "album": "Music",
     "year": 2025,
     "featured": false,
-    "time": 221,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Real Life",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 249,
+    "time": 230,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Red Terror",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 246,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Reflections Laughing",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 226,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Remember You",
     "album": "O.N.I.F.C.",
     "year": 2012,
     "featured": true,
-    "time": 229,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Reminder",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 267,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Repeat After Me",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 262,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Rockin",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 211,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Rolling Stone",
     "album": "Thursday and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 269,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Runaway",
     "album": "Hurry Up Tomorrow (00XO Edition)",
     "year": 2025,
     "featured": false,
-    "time": 264,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Sacrifice",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 274,
+    "time": 230,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Same Old Song",
     "album": "Echoes of Silence and Trilogy",
     "year": 2011,
     "featured": true,
-    "time": 213,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "São Paulo",
     "album": "Hurry Up Tomorrow",
     "year": 2024,
     "featured": false,
-    "time": 259,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Save Your Tears",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 242,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Scared to Live",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 274,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Secrets",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 250,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Sexodus",
     "album": "Matangi",
     "year": 2013,
     "featured": true,
-    "time": 268,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Shameless",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 226,
+    "time": 230,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Sidewalks",
     "album": "Starboy",
     "year": 2016,
     "featured": true,
-    "time": 228,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Six Feet Under",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 259,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Sky Is Falling",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 253,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Smile",
     "album": "Legends Never Die",
     "year": 2020,
     "featured": false,
-    "time": 255,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Snowchild",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 232,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Society",
     "album": "Hurry Up Tomorrow (00XO Edition)",
     "year": 2025,
     "featured": false,
-    "time": 257,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Some Way",
     "album": "Nav",
     "year": 2017,
     "featured": true,
-    "time": 262,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Starboy",
     "album": "Starboy",
     "year": 2016,
     "featured": true,
-    "time": 261,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Stargirl Interlude",
     "album": "Starboy",
     "year": 2016,
     "featured": true,
-    "time": 269,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Starry Eyes",
     "album": "Dawn FM",
     "year": 2022,
     "featured": false,
-    "time": 224,
+    "time": 230,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Take Me Back",
     "album": "The Idol Episode 3 (Music from the HBO Original Series)",
     "year": 2023,
     "featured": false,
-    "time": 217,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Take Me Back to LA",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 269,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Take My Breath",
     "album": "Dawn FM",
     "year": 2021,
     "featured": false,
-    "time": 238,
+    "time": 230,
     "tags": [
       "euphoric",
       "nostalgia",
       "energy",
       "drive"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Tears in the Club",
     "album": "Caprisongs",
     "year": 2021,
     "featured": true,
-    "time": 218,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
@@ -2444,14 +2633,15 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Tears in the Rain",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 222,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
@@ -2459,200 +2649,216 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Tell Your Friends",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 220,
+    "time": 230,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Abyss",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 280,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Birds, Pt. 1",
     "album": "Thursday and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 209,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Birds, Pt. 2",
     "album": "Thursday and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 210,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Fall",
     "album": "Echoes of Silence and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 225,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Hills",
     "album": "Beauty Behind the Madness",
     "year": 2015,
     "featured": false,
-    "time": 274,
+    "time": 230,
     "tags": [
       "confidence",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Knowing",
     "album": "House of Balloons and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 271,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Lure (Main Theme)",
     "album": "The Idol Episode 1 (Music from the HBO Original Series)",
     "year": 2023,
     "featured": false,
-    "time": 219,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Morning",
     "album": "House of Balloons and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 268,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Party & The After Party",
     "album": "House of Balloons and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 255,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "party",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Town",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 266,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "The Zone",
     "album": "Thursday and Trilogy",
     "year": 2011,
     "featured": true,
-    "time": 254,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Thought I Knew You",
     "album": "Queen",
     "year": 2018,
     "featured": true,
-    "time": 239,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Thursday",
     "album": "Thursday and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 221,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Till Dawn (Here Comes the Sun)",
     "album": "Echoes of Silence (bonus track) and Trilogy",
     "year": 2012,
     "featured": false,
-    "time": 259,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Timeless",
     "album": "Hurry Up Tomorrow",
     "year": 2024,
     "featured": false,
-    "time": 207,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
@@ -2660,184 +2866,199 @@
       "party",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Tomorrow's Coming",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 273,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Too Late",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 249,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "True Colors",
     "album": "Starboy",
     "year": 2016,
     "featured": false,
-    "time": 215,
+    "time": 230,
     "tags": [
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Try Me",
     "album": "My Dear Melancoly",
     "year": 2018,
     "featured": false,
-    "time": 278,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Twenty Eight",
     "album": "House of Balloons (bonus track) and Trilogy",
     "year": 2012,
     "featured": false,
-    "time": 245,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "UnFazed",
     "album": "Luv Is Rage 2",
     "year": 2017,
     "featured": true,
-    "time": 206,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Until I Bleed Out",
     "album": "After Hours",
     "year": 2020,
     "featured": false,
-    "time": 242,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "heartbreak"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Until We're Skin & Bones",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 269,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Valerie",
     "album": "Thursday (bonus track) and Trilogy",
     "year": 2012,
     "featured": false,
-    "time": 233,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wake Me Up",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 276,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy",
       "drive"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wanderlust",
     "album": "Kiss Land",
     "year": 2013,
     "featured": false,
-    "time": 206,
+    "time": 230,
     "tags": [
       "dark",
       "late night",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wasted Times",
     "album": "My Dear Melancoly",
     "year": 2018,
     "featured": false,
-    "time": 227,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "We Still Don't Trust You",
     "album": "We Still Don't Trust You",
     "year": 2024,
     "featured": false,
-    "time": 220,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "We'll Take It Backstage",
     "album": "Hurry Up Tomorrow (Original Motion Picture Score)",
     "year": 2025,
     "featured": false,
-    "time": 247,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "What You Need",
@@ -2849,51 +3070,55 @@
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "What You Want",
     "album": "Immigrant",
     "year": 2018,
     "featured": true,
-    "time": 260,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Where You Belong",
     "album": "Fifty Shades of Grey (Original Motion Picture Soundtrack)",
     "year": 2014,
     "featured": false,
-    "time": 248,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wicked Games",
     "album": "House of Balloons and Trilogy",
     "year": 2011,
     "featured": false,
-    "time": 265,
+    "time": 230,
     "tags": [
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wild Love",
     "album": "9",
     "year": 2016,
     "featured": true,
-    "time": 207,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
@@ -2901,33 +3126,36 @@
       "heartbreak",
       "romantic"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Without a Warning",
     "album": "Hurry Up Tomorrow",
     "year": 2025,
     "featured": false,
-    "time": 252,
+    "time": 230,
     "tags": [
       "euphoric",
       "reflective",
       "energy"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Wonderful",
     "album": "Birds in the Trap Sing McKnight",
     "year": 2016,
     "featured": true,
-    "time": 243,
+    "time": 230,
     "tags": [
       "energy",
       "confidence",
       "party"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "XO / The Host",
@@ -2939,30 +3167,33 @@
       "dark",
       "late night"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "You Right",
     "album": "Planet Her",
     "year": 2021,
     "featured": false,
-    "time": 228,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   },
   {
     "title": "Young Metro",
     "album": "We Don't Trust You",
     "year": 2024,
     "featured": false,
-    "time": 222,
+    "time": 230,
     "tags": [
       "energy",
       "confidence"
     ],
-    "artist": "The Weeknd"
+    "artist": "The Weeknd",
+    "durationEstimated": true
   }
 ]
