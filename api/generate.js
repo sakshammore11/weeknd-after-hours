@@ -41,7 +41,7 @@ export default async function handler(req, res) {
         messages: [
           {
             role: 'system',
-            content: 'You are a music curator. Select songs only from the exact catalog provided. Return valid JSON only: {"titles":[up to 10 exact titles in listening order],"reason":"one evocative sentence under 25 words"}. Build a flowing set that fits the user mood and situation, approaching but not exceeding the time target in seconds. Never invent titles.'
+            content: 'You are an expert music curator specializing in The Weeknd. Select a tailored list of songs ONLY from the provided catalog that best matches the user mood, situation, and custom note. Target the total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining the vibe"}. Do not invent titles. Output valid JSON.'
           },
           {
             role: 'user',
@@ -54,7 +54,7 @@ export default async function handler(req, res) {
     if (!openrouterRes.ok) {
       const errText = await openrouterRes.text();
       return res.status(openrouterRes.status).json({
-        error: `OpenRouter returned status ${openrouterRes.status}: ${errText}`
+        error: `OpenRouter API error (${openrouterRes.status}): ${errText}`
       });
     }
 

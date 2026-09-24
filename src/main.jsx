@@ -8,21 +8,9 @@ const tracks = catalog.map(t => ({...t, title: t.title.replace(/[’‘]/g, "'")
 
 const moods=['In my feelings','Main character','Need a reset','Out tonight','On the move','Just vibing'];
 const situations=['A late-night drive','Getting ready to go out','Processing a breakup','The city after dark','A solo recharge','A long walk with headphones'];
-const moodTag={'In my feelings':'heartbreak','Main character':'confidence','Need a reset':'reflective','Out tonight':'party','On the move':'drive','Just vibing':'soft'};
-const situationTag={'A late-night drive':'drive','Getting ready to go out':'party','Processing a breakup':'heartbreak','The city after dark':'late night','A solo recharge':'reflective','A long walk with headphones':'euphoric'};
 
 const fmt=s=>`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
 const art=(track)=>`https://images.unsplash.com/photo-${track.album.includes('Dawn FM')?'1519608487953-e999c86e7455':track.album.includes('After Hours')?'1519608487953-e999c86e7455':track.album.includes('Starboy')?'1500530855697-b586d89ba3ee':'1516280440614-37939bbacd81'}?auto=format&fit=crop&w=160&q=75`;
-const fitToDuration=(list,seconds)=>{
-  const unique=[...new Map(list.map(t=>[t.title.toLowerCase(),t])).values()].slice(0,18);
-  let bestMask=0,bestSeconds=-1;
-  for(let mask=1;mask<(1<<unique.length);mask++){
-    let sum=0;
-    for(let i=0;i<unique.length;i++)if(mask&(1<<i))sum+=unique[i].time;
-    if(sum<=seconds&&sum>bestSeconds){bestSeconds=sum;bestMask=mask;}
-  }
-  return unique.filter((_,i)=>bestMask&(1<<i));
-};
 
 function App(){
   const [mood,setMood]=useState('In my feelings');
@@ -65,7 +53,7 @@ function App(){
   const build=async()=>{
     setLoading(true);
     setError('');
-    let selected=[],why='A custom set for your current headspace.';
+    let selected=[], why='';
 
     try {
       const headers = { 'Content-Type': 'application/json' };
@@ -91,14 +79,16 @@ function App(){
         let content = json.choices?.[0]?.message?.content || '';
         content = content.replace(/```json|```/g, '').trim();
         const parsed = JSON.parse(content);
-        selected = fitToDuration((parsed.titles || []).map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean), duration * 60);
-        why = parsed.reason || why;
+        
+        const aiTitles = parsed.titles || [];
+        selected = aiTitles.map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean);
+        why = parsed.reason || 'Curated by Poolside Laguna XS 2.1';
       } else {
         const errJson = await res.json().catch(() => ({}));
-        throw new Error(errJson.error || `Server returned ${res.status}`);
+        throw new Error(errJson.error || `AI API returned status ${res.status}`);
       }
     } catch (e) {
-      console.warn('Backend endpoint error, attempting client fallback:', e);
+      console.warn('Backend API call error, trying direct OpenRouter fetch:', e);
       if (key.trim()) {
         try {
           const directRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -114,7 +104,7 @@ function App(){
               temperature: 0.45,
               max_tokens: 700,
               messages: [
-                { role: 'system', content: 'You are a music curator. Select songs only from the exact catalog provided. Return valid JSON only: {"titles":[up to 10 exact titles in listening order],"reason":"one evocative sentence under 25 words"}. Build a flowing set that fits the user mood and situation, approaching but not exceeding the time target in seconds. Never invent titles.' },
+                { role: 'system', content: 'You are an expert music curator. Select a tailored list of songs ONLY from the provided catalog that best matches the user mood, situation, and custom note. Target the total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining the vibe"}. Do not invent titles. Output valid JSON.' },
                 { role: 'user', content: JSON.stringify({ mood, situation, note, durationSeconds: duration * 60, catalog: tracks.map(t => ({ title: t.title, seconds: t.time, tags: t.tags })) }) }
               ]
             })
@@ -124,46 +114,24 @@ function App(){
             let content = json.choices?.[0]?.message?.content || '';
             content = content.replace(/```json|```/g, '').trim();
             const parsed = JSON.parse(content);
-            selected = fitToDuration((parsed.titles || []).map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean), duration * 60);
-            why = parsed.reason || why;
+            const aiTitles = parsed.titles || [];
+            selected = aiTitles.map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean);
+            why = parsed.reason || 'Curated by Poolside Laguna XS 2.1';
+          } else {
+            throw new Error(`OpenRouter returned status ${directRes.status}`);
           }
         } catch (clientErr) {
-          setError(`AI generation note: ${clientErr.message}. Used local curation.`);
+          setError(`AI Generation Error: ${clientErr.message}`);
         }
+      } else {
+        setError(`AI Generation Error: ${e.message}`);
       }
     }
 
-    if (!selected.length) {
-      const tags = [
-        moodTag[mood],
-        situationTag[situation],
-        ...(note.toLowerCase().match(/sad|break|miss|lonely|hurt|cry/g) ? ['sad', 'heartbreak'] : []),
-        ...(note.toLowerCase().match(/party|dance|club|fun|energy/g) ? ['party', 'energy'] : [])
-      ];
-      const scored = tracks.map((t, i) => ({
-        t,
-        i,
-        score: t.tags.reduce((s, x) => s + (tags.includes(x) ? 2 : 0), 0) + Math.random() * 0.5
-      })).sort((a, b) => b.score - a.score);
-
-      let secs = 0;
-      for (const { t } of scored) {
-        if (secs + t.time <= duration * 60) {
-          selected.push(t);
-          secs += t.time;
-        }
-        if (secs >= duration * 60 - 60) break;
-      }
-      selected.sort((a, b) => {
-        const sa = a.tags.filter(x => tags.includes(x)).length;
-        const sb = b.tags.filter(x => tags.includes(x)).length;
-        return sb - sa;
-      });
-      why = `For ${situation.toLowerCase()}, with ${mood.toLowerCase()} energy. A ${duration}-minute arc from the complete catalog.`;
+    if (selected.length > 0) {
+      setPlaylist(selected);
+      setReason(why);
     }
-
-    setPlaylist(selected);
-    setReason(why);
     setLoading(false);
   };
 
@@ -288,11 +256,11 @@ function App(){
           <div className="hero-copy">
             <div className="eyebrow"><span className="line" /> A SOUNDTRACK FOR RIGHT NOW</div>
             <h1>Your night.<br /><em>Your Weeknd.</em></h1>
-            <p>Tell us where your head’s at. We’ll make you a set from The Weeknd’s complete discography that feels like it gets you.</p>
+            <p>Tell us where your head’s at. Poolside Laguna XS 2.1 will generate a set from The Weeknd’s 231 released songs.</p>
             <div className="hero-meta">
               <span><Headphones size={14} /> 30 MINUTES, GIVE OR TAKE</span>
               <span className="dot-sep">·</span>
-              <span>231 RELEASED TRACKS · FEATURES INCLUDED</span>
+              <span>100% AI GENERATED SETS</span>
             </div>
           </div>
           <div className="hero-art">
@@ -301,7 +269,7 @@ function App(){
             <div className="silhouette s1" />
             <div className="silhouette s2" />
             <div className="cover-title">AFTER<br />HOURS</div>
-            <div className="cover-stamp">FULL CATALOG · ALL ERAS</div>
+            <div className="cover-stamp">AI CURATION · ALL 231 TRACKS</div>
             <div className="cover-sheen" />
           </div>
         </section>
@@ -345,7 +313,7 @@ function App(){
                 <ChevronDown size={13} />
               </label>
               <button className="build-btn" onClick={build} disabled={loading}>
-                {loading ? <><LoaderCircle className="spin" size={16} /> TUNING IN</> : <><Sparkles size={15} /> MAKE MY SET <ArrowRight size={15} /></>}
+                {loading ? <><LoaderCircle className="spin" size={16} /> AI CURATING</> : <><Sparkles size={15} /> MAKE MY SET <ArrowRight size={15} /></>}
               </button>
             </div>
 
@@ -430,7 +398,7 @@ function App(){
                   </button>
                 </div>
                 <div className="export-note">
-                  {spotifyToken ? 'Creates a private playlist in Spotify and opens it.' : 'Connect Spotify in Settings to create this set as a playlist. Or copy the tracklist and use the Spotify links.'} Durations are approximate for some tracks.
+                  {spotifyToken ? 'Creates a private playlist in Spotify and opens it.' : 'Connect Spotify in Settings to create this set as a playlist. Or copy the tracklist and use the Spotify links.'}
                 </div>
               </>
             )}
@@ -438,7 +406,7 @@ function App(){
         </section>
 
         <footer>
-          <span>MADE FOR THE MOMENT <b>✳</b> FULL RELEASED CATALOG · 231 SONGS + FEATURES</span>
+          <span>MADE FOR THE MOMENT <b>✳</b> 100% AI GENERATED FROM 231 TRACK CATALOG</span>
           <span>NOT AFFILIATED WITH THE ARTIST OR SPOTIFY</span>
         </footer>
       </main>
@@ -467,7 +435,7 @@ function App(){
               <ShieldCheck size={18} className="shield-icon" />
               <div>
                 <strong>Backend API Key Configured</strong>
-                <p>OpenRouter API key is securely embedded in your Vercel backend (`sk-or-v1-...`). AI playlist curation works out-of-the-box!</p>
+                <p>OpenRouter API key is securely embedded in your Vercel backend (`sk-or-v1-...`). Playlists are generated 100% by AI!</p>
               </div>
             </div>
 
