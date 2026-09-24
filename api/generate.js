@@ -25,7 +25,8 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing OpenRouter API Key on server.' });
     }
 
-    const { mood, situation, note, durationSeconds, catalog } = req.body || {};
+    const { prompt, situation, durationSeconds, catalog } = req.body || {};
+    const userMessage = prompt || situation || "General vibe set";
 
     const openrouterRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
@@ -42,11 +43,11 @@ export default async function handler(req, res) {
         messages: [
           {
             role: 'system',
-            content: 'You are an expert music curator specializing in The Weeknd. Select a tailored list of songs ONLY from the provided catalog that best matches the user mood, situation, and custom note. Target the total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining the vibe"}. Do not invent titles. Output valid JSON.'
+            content: 'You are an expert music curator specializing in The Weeknd. Read the user\'s situation description and select a tailored list of songs ONLY from the provided catalog that best matches their story and feeling. Target total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining why this set fits their situation"}. Do not invent titles. Output valid JSON.'
           },
           {
             role: 'user',
-            content: JSON.stringify({ mood, situation, note, durationSeconds, catalog })
+            content: JSON.stringify({ userSituation: userMessage, durationSeconds, catalog })
           }
         ]
       })

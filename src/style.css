@@ -314,97 +314,32 @@ h1 em {
   color: #d9cfca;
   font-size: 12px;
   font-weight: 600;
-  margin: 30px 0 12px;
+  margin: 20px 0 10px;
 }
 
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.chip {
-  border: 1px solid #393132;
-  background: #171314;
-  color: #a89e9b;
-  padding: 10px 14px;
-  font-size: 11px;
-  font-family: 'DM Sans';
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all .18s ease;
-  user-select: none;
-}
-
-.chip:hover {
-  border-color: #805247;
-  color: #e5d4cc;
-}
-
-.chip.active {
-  background: #452922;
-  border-color: #9c5c4b;
-  color: #edc3b1;
-}
-
-.field-label.second {
-  margin-top: 26px;
-}
-
-.select-wrap {
-  position: relative;
-}
-
-.select-wrap select, .length-select select {
-  appearance: none;
-  background: #171314;
-  color: #ded4cf;
-  border: 1px solid #393132;
+.situation-prompt-area {
   width: 100%;
-  padding: 12px;
+  min-height: 120px;
+  background: #171314;
+  border: 1px solid #393132;
+  color: #ded4cf;
+  padding: 14px;
   font-size: 14px;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
   border-radius: 4px;
   outline: none;
-  cursor: pointer;
-}
-
-.select-wrap svg {
-  position: absolute;
-  right: 12px;
-  top: 14px;
-  pointer-events: none;
-  color: #988783;
-}
-
-.optional {
-  font-weight: 400;
-  color: #73696a;
-  font-size: 8px;
-  margin-left: 5px;
-  letter-spacing: .09em;
-}
-
-textarea {
-  width: 100%;
-  height: 72px;
+  transition: border-color 0.18s ease;
   resize: vertical;
-  background: #171314;
-  border: 1px solid #393132;
-  color: #ded4cf;
-  padding: 11px 12px;
-  font-size: 14px;
-  font-family: 'DM Sans';
-  border-radius: 4px;
-  outline: none;
 }
 
-textarea:focus, .select-wrap select:focus, .key-input:focus {
+.situation-prompt-area:focus {
   border-color: #8c574a;
+  box-shadow: 0 0 0 1px #8c574a40;
 }
 
-textarea::placeholder {
-  color: #716869;
+.situation-prompt-area::placeholder {
+  color: #6a6160;
 }
 
 .form-bottom {
@@ -424,12 +359,14 @@ textarea::placeholder {
 }
 
 .length-select select {
-  width: auto;
+  appearance: none;
   background: transparent;
   border: 0;
   padding: 6px 20px 6px 0;
   color: #bdb0aa;
   font: 11px 'DM Mono';
+  outline: none;
+  cursor: pointer;
 }
 
 .length-select > svg:last-child {
@@ -1034,10 +971,6 @@ footer b {
   to { transform: rotate(360deg); }
 }
 
-/* ==========================================================================
-   Responsive Breakpoints for Tablet & Mobile Screen Compatibility
-   ========================================================================== */
-
 @media (max-width: 850px) {
   .app {
     padding: 0 28px;
@@ -1152,10 +1085,6 @@ footer b {
 @media (max-width: 420px) {
   .app {
     padding: 0 14px;
-  }
-  .chip {
-    padding: 9px 12px;
-    font-size: 10px;
   }
   .hero-art {
     height: 210px;

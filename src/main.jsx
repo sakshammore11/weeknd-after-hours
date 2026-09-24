@@ -1,59 +1,71 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import catalog from './catalog.json';
-import { ArrowDown, ArrowRight, Check, ChevronDown, Clock3, Copy, Disc3, ExternalLink, Headphones, LoaderCircle, Music2, Play, Plus, RefreshCw, Settings2, Shuffle, Sparkles, X, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Check, ChevronDown, Clock3, Copy, Disc3, ExternalLink, Headphones, LoaderCircle, Music2, Play, RefreshCw, Settings2, Sparkles, X, ShieldCheck } from 'lucide-react';
 import './style.css';
 
 const tracks = catalog.map(t => ({...t, title: t.title.replace(/[’‘]/g, "'")}));
-
-const moods=['In my feelings','Main character','Need a reset','Out tonight','On the move','Just vibing'];
-const situations=['A late-night drive','Getting ready to go out','Processing a breakup','The city after dark','A solo recharge','A long walk with headphones'];
 
 const fmt=s=>`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
 const art=(track)=>`https://images.unsplash.com/photo-${track.album.includes('Dawn FM')?'1519608487953-e999c86e7455':track.album.includes('After Hours')?'1519608487953-e999c86e7455':track.album.includes('Starboy')?'1500530855697-b586d89ba3ee':'1516280440614-37939bbacd81'}?auto=format&fit=crop&w=160&q=75`;
 
 function App(){
-  const [mood,setMood]=useState('In my feelings');
-  const [situation,setSituation]=useState('A late-night drive');
-  const [note,setNote]=useState('');
-  const [playlist,setPlaylist]=useState([]);
-  const [reason,setReason]=useState('');
-  const [loading,setLoading]=useState(false);
-  const [error,setError]=useState('');
-  const [copied,setCopied]=useState(false);
-  const [showSettings,setShowSettings]=useState(false);
-  const [key,setKey]=useState(sessionStorage.getItem('or_key')||'');
-  const [clientId,setClientId]=useState(sessionStorage.getItem('spotify_client_id')||'');
-  const [spotifyToken,setSpotifyToken]=useState(sessionStorage.getItem('spotify_token')||'');
-  const [duration,setDuration]=useState(30);
-  const [toast,setToast]=useState('');
+  const [prompt, setPrompt] = useState('');
+  const [playlist, setPlaylist] = useState([]);
+  const [reason, setReason] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [copied, setCopied] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [key, setKey] = useState(sessionStorage.getItem('or_key') || '');
+  const [clientId, setClientId] = useState(sessionStorage.getItem('spotify_client_id') || '');
+  const [spotifyToken, setSpotifyToken] = useState(sessionStorage.getItem('spotify_token') || '');
+  const [duration, setDuration] = useState(30);
+  const [toast, setToast] = useState('');
 
-  useEffect(()=>{
-    const params=new URLSearchParams(location.search),code=params.get('code'),verifier=sessionStorage.getItem('spotify_verifier'),savedClient=sessionStorage.getItem('spotify_client_id');
-    if(!code||!verifier||!savedClient)return;
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const code = params.get('code');
+    const verifier = sessionStorage.getItem('spotify_verifier');
+    const savedClient = sessionStorage.getItem('spotify_client_id');
+    if (!code || !verifier || !savedClient) return;
     sessionStorage.removeItem('spotify_verifier');
-    history.replaceState({},'',location.pathname);
-    fetch('https://accounts.spotify.com/api/token',{
-      method:'POST',
-      headers:{'Content-Type':'application/x-www-form-urlencoded'},
-      body:new URLSearchParams({client_id:savedClient,grant_type:'authorization_code',code,redirect_uri:location.origin+location.pathname,code_verifier:verifier})
-    }).then(r=>r.json()).then(data=>{
-      if(data.access_token){
-        sessionStorage.setItem('spotify_token',data.access_token);
-        setSpotifyToken(data.access_token);
-        setToast('Spotify connected');
-        setTimeout(()=>setToast(''),2500);
-      }else setError(data.error_description||'Spotify could not complete sign-in. Check the redirect URI in your Spotify app.');
-    }).catch(()=>setError('Spotify sign-in could not finish. Please try connecting again.'));
-  },[]);
+    history.replaceState({}, '', location.pathname);
+    fetch('https://accounts.spotify.com/api/token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        client_id: savedClient,
+        grant_type: 'authorization_code',
+        code,
+        redirect_uri: location.origin + location.pathname,
+        code_verifier: verifier
+      })
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.access_token) {
+          sessionStorage.setItem('spotify_token', data.access_token);
+          setSpotifyToken(data.access_token);
+          setToast('Spotify connected');
+          setTimeout(() => setToast(''), 2500);
+        } else setError(data.error_description || 'Spotify sign-in could not complete.');
+      })
+      .catch(() => setError('Spotify sign-in could not finish. Please try connecting again.'));
+  }, []);
 
-  const total=playlist.reduce((n,t)=>n+t.time,0); 
-  const pct=Math.min(100,total/(duration*60)*100);
+  const total = playlist.reduce((n, t) => n + t.time, 0);
+  const pct = Math.min(100, (total / (duration * 60)) * 100);
 
-  const build=async()=>{
+  const build = async () => {
+    if (!prompt.trim()) {
+      setError("Please describe your situation or how you're feeling first.");
+      return;
+    }
+
     setLoading(true);
     setError('');
-    let selected=[], why='';
+    let selected = [], why = '';
 
     try {
       const headers = { 'Content-Type': 'application/json' };
@@ -65,9 +77,7 @@ function App(){
         method: 'POST',
         headers,
         body: JSON.stringify({
-          mood,
-          situation,
-          note,
+          prompt: prompt.trim(),
           durationSeconds: duration * 60,
           catalog: tracks.map(t => ({ title: t.title, seconds: t.time, tags: t.tags })),
           customApiKey: key.trim() || undefined
@@ -82,7 +92,7 @@ function App(){
         
         const aiTitles = parsed.titles || [];
         selected = aiTitles.map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean);
-        why = parsed.reason || 'Curated by Poolside Laguna XS 2.1';
+        why = parsed.reason || 'Curated specially for your situation by AI.';
       } else {
         const errJson = await res.json().catch(() => ({}));
         throw new Error(errJson.error || `AI API returned status ${res.status}`);
@@ -104,8 +114,14 @@ function App(){
               temperature: 0.45,
               max_tokens: 700,
               messages: [
-                { role: 'system', content: 'You are an expert music curator. Select a tailored list of songs ONLY from the provided catalog that best matches the user mood, situation, and custom note. Target the total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining the vibe"}. Do not invent titles. Output valid JSON.' },
-                { role: 'user', content: JSON.stringify({ mood, situation, note, durationSeconds: duration * 60, catalog: tracks.map(t => ({ title: t.title, seconds: t.time, tags: t.tags })) }) }
+                {
+                  role: 'system',
+                  content: 'You are an expert music curator specializing in The Weeknd. Read the user situation description and select a tailored list of songs ONLY from the provided catalog that best matches their description. Target total playlist duration in seconds to be close to durationSeconds. Return JSON only: {"titles": ["exact song title 1", "exact song title 2", ...], "reason": "one evocative sentence under 25 words explaining why this set fits their situation"}. Output valid JSON.'
+                },
+                {
+                  role: 'user',
+                  content: JSON.stringify({ prompt: prompt.trim(), durationSeconds: duration * 60, catalog: tracks.map(t => ({ title: t.title, seconds: t.time, tags: t.tags })) })
+                }
               ]
             })
           });
@@ -116,7 +132,7 @@ function App(){
             const parsed = JSON.parse(content);
             const aiTitles = parsed.titles || [];
             selected = aiTitles.map(title => tracks.find(t => t.title.toLowerCase() === title.toLowerCase())).filter(Boolean);
-            why = parsed.reason || 'Curated by Poolside Laguna XS 2.1';
+            why = parsed.reason || 'Curated specially for your situation by AI.';
           } else {
             throw new Error(`OpenRouter returned status ${directRes.status}`);
           }
@@ -186,7 +202,7 @@ function App(){
       const uris = [];
       for (const t of playlist) {
         const r = await fetch(`https://api.spotify.com/v1/search?type=track&limit=5&q=${encodeURIComponent(`track:"${t.title}" artist:"The Weeknd"`)}`, { headers });
-        if (!r.ok) throw new Error(r.status === 401 ? 'Spotify session expired. Reconnect in Settings.' : 'Spotify search failed. Reconnect in Settings and try again.');
+        if (!r.ok) throw new Error(r.status === 401 ? 'Spotify session expired. Reconnect in Settings.' : 'Spotify search failed.');
         const data = await r.json();
         const match = data.tracks?.items?.find(x => x.artists?.some(a => a.name.toLowerCase() === 'the weeknd')) || data.tracks?.items?.[0];
         if (match?.uri) uris.push(match.uri);
@@ -197,12 +213,12 @@ function App(){
         method: 'POST',
         headers,
         body: JSON.stringify({
-          name: `After Hours — ${situation}`,
-          description: `A ${duration}-minute Weeknd set for ${mood.toLowerCase()}. Made with After Hours.`,
+          name: `After Hours Set`,
+          description: `A custom Weeknd set created with After Hours AI.`,
           public: false
         })
       });
-      if (!created.ok) throw new Error('Spotify could not create the playlist. Reconnect and try again.');
+      if (!created.ok) throw new Error('Spotify could not create the playlist.');
       const pl = await created.json();
 
       for (let i = 0; i < uris.length; i += 100) {
@@ -211,7 +227,7 @@ function App(){
           headers,
           body: JSON.stringify({ uris: uris.slice(i, i + 100) })
         });
-        if (!added.ok) throw new Error('Playlist created, but Spotify could not add all tracks.');
+        if (!added.ok) throw new Error('Playlist created, but could not add all tracks.');
       }
       if (playerWindow) playerWindow.location = pl.external_urls.spotify;
       setToast('Playlist created in Spotify — enjoy the set');
@@ -256,11 +272,11 @@ function App(){
           <div className="hero-copy">
             <div className="eyebrow"><span className="line" /> A SOUNDTRACK FOR RIGHT NOW</div>
             <h1>Your night.<br /><em>Your Weeknd.</em></h1>
-            <p>Tell us where your head’s at. Poolside Laguna XS 2.1 will generate a set from The Weeknd’s 231 released songs.</p>
+            <p>Tell the AI what's on your mind or what you're going through. It will curate a set from all 231 Weeknd tracks tailored just for you.</p>
             <div className="hero-meta">
               <span><Headphones size={14} /> 30 MINUTES, GIVE OR TAKE</span>
               <span className="dot-sep">·</span>
-              <span>100% AI GENERATED SETS</span>
+              <span>DIRECT AI PROMPT CURATION</span>
             </div>
           </div>
           <div className="hero-art">
@@ -276,30 +292,15 @@ function App(){
 
         <section className="workspace">
           <div className="form-panel">
-            <div className="section-kicker"><span>01</span> SET THE SCENE</div>
-            <label className="field-label">What’s your mood?</label>
-            <div className="chips">
-              {moods.map(m => (
-                <button key={m} onClick={() => setMood(m)} className={`chip ${mood === m ? 'active' : ''}`}>
-                  {m}
-                </button>
-              ))}
-            </div>
-
-            <label className="field-label second">What’s the situation?</label>
-            <div className="select-wrap">
-              <select value={situation} onChange={e => setSituation(e.target.value)}>
-                {situations.map(s => <option key={s}>{s}</option>)}
-              </select>
-              <ChevronDown size={16} />
-            </div>
-
-            <label className="field-label second">Anything else on your mind? <span className="optional">OPTIONAL</span></label>
+            <div className="section-kicker"><span>01</span> TELL US YOUR SITUATION</div>
+            
+            <label className="field-label">What's going on or how are you feeling?</label>
             <textarea
-              value={note}
-              onChange={e => setNote(e.target.value)}
-              placeholder="A few words help set the tone…"
-              maxLength={180}
+              className="situation-prompt-area"
+              value={prompt}
+              onChange={e => setPrompt(e.target.value)}
+              placeholder="e.g. I am feeling very tired and lonely, driving late at night thinking about old memories..."
+              rows={4}
             />
 
             <div className="form-bottom">
@@ -344,8 +345,8 @@ function App(){
                   <Music2 size={23} />
                   <span />
                 </div>
-                <p>Your set is one good prompt away.</p>
-                <small>Pick a mood, set the scene, and we’ll take it from there.</small>
+                <p>Your set is one description away.</p>
+                <small>Tell the AI your situation above, and we’ll generate your Weeknd set.</small>
                 <div className="empty-wave">
                   <i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i />
                 </div>
@@ -406,7 +407,7 @@ function App(){
         </section>
 
         <footer>
-          <span>MADE FOR THE MOMENT <b>✳</b> 100% AI GENERATED FROM 231 TRACK CATALOG</span>
+          <span>MADE FOR THE MOMENT <b>✳</b> DIRECT AI PROMPT CURATION</span>
           <span>NOT AFFILIATED WITH THE ARTIST OR SPOTIFY</span>
         </footer>
       </main>
